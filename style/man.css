@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100vh;
+}
+h1, h2, h3, h4, h5, h6, p,li{
+  font-family: 'Poppins', sans-serif;
+}
+
+header, ul, li{
+  list-style-type: none;
+  font-weight: bold;
+  line-height: 36px;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonContat{
+  width: 188px;
+  height: 52px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-color: #fff;
+  border-style: none;
+  text-decoration-color: #FFF;
+  color: #2E8BA6;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page-lading{
+  background-color: green;
+}
+header ul li{
+  color: #fff;
+}
+
