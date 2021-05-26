@@ -4,14 +4,31 @@
 .header ul li{
   color: #fff;
 }
+
+.pagelandinginitial {
+  display:flex;
+  flex-direction:row;
+  height: 76vh ;
+}
 .presentation{
   line-height:54px;
+  width: 50%;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
 }
 
 .presentation #bigtitle{
   font-size: 65px;
+  line-height:100%;
 }
 .presentation #title{
   font-size: 43px;
   font-weight: 300;
+}
+.imageinitial{
+  width:50%;
+}
+.imageinitial .imageminitalimg{
+  width: 100%
 }

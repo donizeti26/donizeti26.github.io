@@ -14,6 +14,8 @@ header, ul, li{
   list-style-type: none;
   font-weight: bold;
   line-height: 36px;
+  cursor: pointer;
+  font-size: 3vh;
 }
 ul{
   display: flex;
@@ -35,9 +37,19 @@ ul{
 }
 
 .page-lading{
-  background-color: green;
+  background-color: #2E8BA6;
 }
 header ul li{
   color: #fff;
 }
+header ul li:hover{
+ color: #383838;
+}
+.presentation h1{
+  color: #fff;
+}
+
+
+
+
 
