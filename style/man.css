@@ -12,27 +12,36 @@ h1, h2, h3, h4, h5, h6, p,li{
 
 header, ul, li{
   list-style-type: none;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 36px;
   cursor: pointer;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 ul{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header-person {
+  display: flex;
+  justify-content: space-between;
+}
+.header-list{
+  width: 50%;
 }
 
 .buttonContat{
-  width: 188px;
-  height: 52px;
-  background-color: #fff;
-  border-radius: 20px;
+  width: 13vw;
+  height: 6vh;
+  background-color: #2DB5DD;
+  border-radius: 10px;
   border-color: #fff;
   border-style: none;
   text-decoration-color: #FFF;
-  color: #2E8BA6;
+  color: #ffff;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -49,7 +58,8 @@ header ul li:hover{
   color: #fff;
 }
 
-
-
-
-
+ #name{
+  background-color: #2E8BA6;
+  color: #fff;
+  padding: 0 3px 0 3px;
+}

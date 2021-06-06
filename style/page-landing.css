@@ -19,7 +19,7 @@
 }
 
 .presentation #bigtitle{
-  font-size: 65px;
+  font-size: 4.3rem;
   line-height:100%;
 }
 .presentation #title{
@@ -31,4 +31,30 @@
 }
 .imageinitial .imageminitalimg{
   width: 100%
+}
+
+.descirption{
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 11% 4% 11%;
+
+}
+.text-descirption  h1{
+  text-align: justify
+}
+.text-descirption  p{
+  text-align: justify
+}
+.text-descirption  h1{
+  text-align: center;
+  font-size: 2.5rem;
+
+}
+.text-descirption{
+  width: 50%;
+}
+.perfilimage {
+  width: 50%;
+   justify-content: flex-end;
+  display: flex;
 }

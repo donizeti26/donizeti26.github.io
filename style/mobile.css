@@ -6,7 +6,17 @@
     flex-direction: column;
     align-items: center;
   }
-.buttonContat{
-  display:none;
+.logo{
+  display: none;
+}
+.header-person{
+  justify-content: center;
+}
+.presentation #bigtitle{
+  font-size: 3rem;
+
+}
+.imageminitalimg{
+  display: none;
 }
 }
