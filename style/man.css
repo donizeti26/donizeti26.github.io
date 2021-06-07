@@ -63,3 +63,9 @@ header ul li:hover{
   color: #fff;
   padding: 0 3px 0 3px;
 }
+.title-descirption h1{
+  font-weight: 300;
+}
+.title-descirption span{
+  font-weight: bold;
+}

@@ -1,4 +1,4 @@
-@media (max-width: 760px) {
+@media (max-width: 934px) {
   .page-lading{
     padding: 4% 7% 4% 7%;
   }
@@ -19,4 +19,22 @@
 .imageminitalimg{
   display: none;
 }
+.buttonContat{
+  width: 24vw;
+}
+.title-descirption h1{
+  font-size: 1.5rem;
+}
+.descirption{
+  flex-direction: column;
+}
+.text-descirption{
+  width: 100%;
+}
+.perfilimage {
+  width: 100%;
+  padding-top:10%;
+  justify-content: center;
+}
+
 }

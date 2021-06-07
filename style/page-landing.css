@@ -1,5 +1,5 @@
 .page-lading{
-  padding: 4% 7% 4% 7%;
+  padding: 5% 7% 5% 7%;
 }
 .header ul li{
   color: #fff;
@@ -36,16 +36,22 @@
 .descirption{
   display: flex;
   justify-content: space-between;
+  
   padding: 4% 11% 4% 11%;
 
 }
-.text-descirption  h1{
-  text-align: justify
+.title-descirption{
+  padding-top: 2%;
+}
+.title-descirption  h1{
+  text-align: justify;
+  
+  
 }
 .text-descirption  p{
   text-align: justify
 }
-.text-descirption  h1{
+.title-descirption  h1{
   text-align: center;
   font-size: 2.5rem;
 
