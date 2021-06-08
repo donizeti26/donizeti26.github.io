@@ -36,5 +36,14 @@
   padding-top:10%;
   justify-content: center;
 }
-
+.jobs-description{
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.item-job-description h3{
+  text-align: center;
+}
+.item-job-description ul{
+  align-items: flex-start;
+}
 }
