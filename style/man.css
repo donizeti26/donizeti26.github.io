@@ -1,8 +1,16 @@
 :root{
   --color-bg-principal:#2E8BA6;
   --color-txt-principal:#54595f;
+  --color-bg-white: #F5F5F5;
+}
+html {
+  scroll-behavior: smooth;
 }
 
+*::selection {
+  background: var(--color-txt-principal);
+  color:var(--color-bg-white);
+}
 
 *{
   margin:0;
@@ -12,7 +20,7 @@
 html, body{
   height: 100vh;
 }
-h1, h2, h3, h4, h5, h6, p,li{
+h1, h2, h3, h4, h5, h6, p,li,a{
   font-family: 'Poppins', sans-serif;
 
 }
@@ -21,8 +29,11 @@ header, ul, li{
   list-style-type: none;
   font-weight: 500;
   line-height: 36px;
-  cursor: pointer;
+
   font-size: 2.5vh;
+}
+.header-list ul li {
+  cursor: pointer;
 }
 ul{
   display: flex;
@@ -32,6 +43,9 @@ ul{
 .header-person {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
 }
 .header-list{
   width: 50%;
@@ -40,12 +54,12 @@ ul{
 .buttonContat{
   width: 13vw;
   height: 6vh;
-  background-color: var(--color-bg-principal);
+  background-color: var(--color-bg-white);
   border-radius: 10px;
-  border-color: #fff;
+  border-color: var(--color-bg-white);
   border-style: none;
-  text-decoration-color: #FFF;
-  color: #ffff;
+  text-decoration-color: var(--color-bg-principal);
+  color: var(--color-bg-principal);
   font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
@@ -55,18 +69,19 @@ ul{
   background-color: var(--color-bg-principal);
 }
 header ul li{
-  color: #fff;
+  color: var(--color-bg-white);
 }
 header ul li:hover{
  color: #383838;
+
 }
 .presentation h1{
-  color: #fff;
+  color: var(--color-bg-white);
 }
 
  #name{
   background-color: var(--color-bg-principal);
-  color: #fff;
+  color: var(--color-bg-white);
   padding: 0 3px 0 3px;
 }
 .title-descirption h1{
@@ -75,3 +90,4 @@ header ul li:hover{
 .title-descirption span{
   font-weight: bold;
 }
+

@@ -21,14 +21,27 @@
 .presentation #bigtitle{
   font-size: 4.3rem;
   line-height:100%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
 }
 .presentation #title{
   font-size: 43px;
   font-weight: 300;
+
 }
 .imageinitial{
   width:50%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+
 }
+@keyframes example {
+  100%   {top:0px; left:0px;}
+  0%  {top:200px; left:0px;}
+}
+
 .imageinitial .imageminitalimg{
   width: 100%
 }
@@ -84,3 +97,41 @@
   font-style: inherit;
   
 }
+
+.risc{
+  content: "";
+  width: 15%;
+  height: 4px;
+  margin: 0 auto;
+  background-color: var(--color-bg-principal);
+  display: block;
+  margin-top: 10px;
+}
+
+.rodape{
+
+  background-color: var(--color-bg-principal);
+  padding: 4% 9% 4% 9%;
+}
+
+.justify-footer-social, .justify-footer-site{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.social{
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.justify-footer-site a{
+ text-decoration: none;
+ color: var( --color-bg-white);
+}
+.about-us{
+  width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+

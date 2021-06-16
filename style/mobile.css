@@ -46,4 +46,7 @@
 .item-job-description ul{
   align-items: flex-start;
 }
+#macbook{
+  width: 100%;
+}
 }
