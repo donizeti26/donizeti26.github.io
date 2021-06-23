@@ -25,14 +25,14 @@ h1, h2, h3, h4, h5, h6, p,li,a{
 
 }
 
-header, ul, li{
+header, ul, li, a{ 
   list-style-type: none;
   font-weight: 500;
   line-height: 36px;
-
+text-decoration: none;
   font-size: 2.5vh;
 }
-.header-list ul li {
+.header-list ul li a{
   cursor: pointer;
 }
 ul{
@@ -68,10 +68,10 @@ ul{
 .page-lading{
   background-color: var(--color-bg-principal);
 }
-header ul li{
+header ul li a{
   color: var(--color-bg-white);
 }
-header ul li:hover{
+header ul li a:hover{
  color: #383838;
 
 }

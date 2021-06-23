@@ -1,7 +1,7 @@
 .page-lading{
   padding: 5% 7% 5% 7%;
 }
-.header ul li{
+.header ul li a{
   color: #fff;
 }
 
@@ -74,6 +74,57 @@
    justify-content: flex-end;
   display: flex;
 }
+.skills{
+  padding: 4% 9% 4% 9%;
+  display: flex;
+  flex-direction: column;
+}
+.progress{
+  height: 15px;
+  background-color: #CECECE;
+  position: relative;
+  width: 40%;
+}
+
+.progress .progress-bar{
+ position: absolute;
+ height: 100%;
+ background-color: #2E8BA6;
+ animation-duration: 8s ;
+ animation-name: progress-animation ;
+ animation-fill-mode: forwards;
+
+}
+
+#html{
+  width: 5%;
+
+  margin-right: 2%;
+}
+.group-progress{
+  display: flex;
+  margin-bottom: 2%;
+
+}
+.description-progress{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.description-progress h4{
+  font-weight: inherit;
+}
+@keyframes progress-animation{
+  0% { width: 0%; }
+  
+  100% { width: 50%}
+  
+}
+
+
+
+
+
 .item-job-description{
   display: flex;
   flex-direction: column;
