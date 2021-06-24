@@ -49,4 +49,8 @@
 #macbook{
   width: 100%;
 }
+
+.group-skills{
+  flex-direction: column;
+}
 }

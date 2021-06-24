@@ -55,6 +55,7 @@
 }
 .title-descirption{
   padding-top: 2%;
+  padding-bottom: 3%;
 }
 
 .text-descirption  p{
@@ -83,7 +84,7 @@
   height: 15px;
   background-color: #CECECE;
   position: relative;
-  width: 40%;
+  width: 83%;
 }
 
 .progress .progress-bar{
@@ -97,10 +98,16 @@
 }
 
 #html{
-  width: 5%;
+  width: 7%;
 
   margin-right: 2%;
 }
+.group-skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .group-progress{
   display: flex;
   margin-bottom: 2%;
