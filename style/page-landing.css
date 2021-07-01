@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   
-  padding: 4% 11% 4% 11%;
+  padding: 4% 11% 0% 11%;
 
 }
 .title-descirption{
@@ -102,6 +102,28 @@
 
   margin-right: 2%;
 }
+.mini_title{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+padding: 4%0 4% 0;
+width: 40%;
+
+}
+
+.mini_title p{
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+.sublinhado{
+  content: "";
+  width: 20%;
+  height: 4px;
+  /* margin: 0 auto; */
+  background-color: var(--color-bg-principal);
+  display: block;
+
+}
 .group-skills{
   display: flex;
   justify-content: center;
@@ -138,7 +160,7 @@
 }
 
 .jobs-description{
-  padding: 4% 9% 4% 9%;
+  padding: 1% 9% 4% 9%;
   display: flex;
 }
 
@@ -191,5 +213,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+
 
 
