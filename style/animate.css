@@ -1,0 +1,36 @@
+@keyframes progress-animation-5{
+  0% { width: 0%; }
+  
+  100% { width: 5%}
+  
+}
+
+@keyframes progress-animation-25{
+  0% { width: 0%; }
+  
+  100% { width: 25%}
+  
+}
+
+
+@keyframes progress-animation-50{
+  0% { width: 0%; }
+  
+  100% { width: 50%}
+  
+}
+@keyframes progress-animation-75{
+  0% { width: 0%; }
+  
+  100% { width: 75%}
+  
+}
+
+
+@keyframes progress-animation-90{
+  0% { width: 0%; }
+  
+  100% { width: 90%}
+  
+}
+

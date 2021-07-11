@@ -12,8 +12,11 @@
 .header-person{
   justify-content: center;
 }
+.presentation{
+  width: 76vh;
+}
 .presentation #bigtitle{
-  font-size: 3rem;
+  font-size: 2.2rem;
 
 }
 .imageminitalimg{
@@ -36,6 +39,9 @@
   padding-top:10%;
   justify-content: center;
 }
+.perfilimage img{
+  width: 100%;
+}
 .jobs-description{
   flex-direction: column;
   margin-bottom: 5%;
@@ -49,8 +55,17 @@
 #macbook{
   width: 100%;
 }
-
+#html {
+  width: 12%;}
 .group-skills{
   flex-direction: column;
 }
+
+
+.group-one,
+.group-two{
+width: 100%;
 }
+.social{
+  width: 25%;
+}}
