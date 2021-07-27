@@ -1,4 +1,100 @@
 @media (max-width: 934px) {
+  
+#menu{
+  width: 35px;
+  height:  30px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+.bar{
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+
+#bar1{
+  transform: translateY(-4px);
+}
+
+#bar3{
+  transform: translateY(4px);
+}
+
+.nav li a {
+  color: white;
+}
+.nav {
+  padding: 0;
+  margin: 0 20px;
+  transition: 0.4ss ease;
+  display: none;
+
+}
+.menu-bg, #header-list{
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg{
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.3 ease;
+}
+
+#header-list{
+  z-index: 2;
+}
+ .change-bg{
+   width: 550px;
+   height: 540px;
+   transform: translate(-60%, -30%);
+ }
+ .change .bar{
+   background: white;
+ }
+
+ .change #bar1{
+   transform: translateY(4px) rotateZ(-45deg);
+ }
+
+ .change #bar3{
+  transform: translateY(-6px) rotateZ(45deg);
+}
+.change #bar2{
+  opacity: 0 ;
+
+}
+.change{
+  display: block;
+}
+
+.pagelandinginitial{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.imageinitial{
+  width: 100%;
+}
+#bigtitle span {
+  -webkit-text-stroke-width: 0.4px;}
+  
+.presentation{
+  width: 0;
+}
+
+
+.header-person {
+  justify-content: left;
+}
   .page-lading{
     padding: 4% 7% 4% 7%;
   }
@@ -9,9 +105,7 @@
 .logo{
   display: none;
 }
-.header-person{
-  justify-content: center;
-}
+
 .presentation{
   width: 76vh;
 }
@@ -20,7 +114,7 @@
 
 }
 .imageminitalimg{
-  display: none;
+
 }
 .buttonContat{
   width: 24vw;

@@ -16,6 +16,7 @@
 
 
 
+
 </head>
 
 <body>
@@ -23,17 +24,30 @@
 		<header>
 			<section class="header-person">
 				<div class="logo">
-					<p><a href="#macbook"></a> </p>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label>
+
 				</div>
 				<div class="header-list">
-					<ul class="nav">
+
+					<div id="menu" onclick="onClickMenu( )">
+						<div id="bar1" class="bar"></div>
+						<div id="bar2" class="bar"></div>
+						<div id="bar3" class="bar"></div>
+					</div>
+
+					<ul class="nav" id="nav">
 						<li><a href="#soueu">Sou eu</li></a>
 
 						<li><a href="#skills">Portifólio</li></a>
 						<li><a href="#serviços">Serviços</li></a>
-						<li><button class=" buttonContat ">Contato</button></li>
+						<li><button class=" buttonContat">Contato</button></li>
 					</ul>
 				</div>
+
+				<div class="menu-bg" id="menu-bg"></div>
 			</section>
 
 
@@ -41,7 +55,7 @@
 		<div class="pagelandinginitial">
 			<div class="presentation">
 
-				<h1 id="bigtitle">DESENVOLVEDOR <br> FRONT END</h1>
+				<h1 id="bigtitle">DESENVOLVEDOR <br><span>FRONT END</span></h1>
 			</div>
 			<div class="imageinitial">
 				<img class="imageminitalimg" src="./assets/pagelanding.png" alt="">
@@ -264,7 +278,8 @@
 		</div>
 		<div class="text-descirption">
 
-			<p>A Huna surgiu em julho de 2018 com a missão de transformar pequenos negócios no mundo digital. Entendemos que
+			<p class="exciting-text">A Huna surgiu em julho de 2018 com a missão de transformar pequenos negócios no mundo
+				digital. Entendemos que
 				as redes sociais e toda parte de identidade visual pode parecer um bicho de sete cabeças.
 			</p>
 
@@ -303,7 +318,8 @@
 
 		</div>
 	</footer>
-
+	<script src="script/menuBurguer.js"></script>
+	<script src="script/animatescroll.js"></script>
 </body>
 
 </html>
