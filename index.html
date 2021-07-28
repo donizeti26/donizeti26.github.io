@@ -13,24 +13,26 @@
 	<link rel="stylesheet" type="text/css" href="style/page-landing.css">
 	<link rel="stylesheet" type="text/css" href="style/mobile.css">
 	<link rel="stylesheet" type="text/css" href="style/animate.css">
+	<link rel="stylesheet" type="text/css" href="style/blackAndWhite.css">
+
 
 
 
 
 </head>
 
-<body>
+<body id="body">
 	<div class="page-lading">
 		<header>
 			<section class="header-person">
 				<div class="logo">
 					<label class="switch">
 						<input type="checkbox">
-						<span class="slider round"></span>
+						<span class="slider round" onclick="onClickSliderRound( )"></span>
 					</label>
 
 				</div>
-				<div class="header-list">
+				<div class=" header-list">
 
 					<div id="menu" onclick="onClickMenu( )">
 						<div id="bar1" class="bar"></div>
@@ -55,7 +57,7 @@
 		<div class="pagelandinginitial">
 			<div class="presentation">
 
-				<h1 id="bigtitle">DESENVOLVEDOR <br><span>FRONT END</span></h1>
+				<h1 id="bigtitle">DESENVOLVEDOR <br><span id="titleleaked">FRONT END</span></h1>
 			</div>
 			<div class="imageinitial">
 				<img class="imageminitalimg" src="./assets/pagelanding.png" alt="">
@@ -290,7 +292,7 @@
 		<div class="justify-footer">
 			<div class="justify-footer-social">
 				<div>
-					<h1></h1>
+					<img src="assets/rect857.png" alt="">
 				</div>
 				<div class="social">
 					<a href="https://www.instagram.com/dev_donizet/"><img src="./assets/instagram.svg" alt=""></a>
@@ -320,6 +322,8 @@
 	</footer>
 	<script src="script/menuBurguer.js"></script>
 	<script src="script/animatescroll.js"></script>
+	<script src="script/darkMode.js"></script>
+
 </body>
 
 </html>

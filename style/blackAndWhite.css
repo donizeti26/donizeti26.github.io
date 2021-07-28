@@ -1,39 +1,9 @@
-
-@tailwind base;
-
-body,p {
-  background-color: #e8ffff; // 🌕
-  color: #213e3b;
+.dark-mode , .rodape{
+  background-color: #1e252d;
 }
-
-h1 {
-  color: #14274e;
+.dark-mode-title{
+  color: #1e252d !important;
 }
-
-h3 {
-  color: #7579e7;
+.grey-mode{
+  background-color: #000;
 }
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #010101; // 🌑
-    color: #f0ece2;
-  }
-
-  h1 {
-    color: #7579e7;
-  }
-
-  h3 {
-    color: #69779b;
-  }
-
-  img {
-    filter: brightness(0.9);
-  }
-
-}
-
-@tailwind components;
-
-@tailwind utilities;

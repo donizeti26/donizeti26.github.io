@@ -5,7 +5,9 @@
   color: #fff;
 }
 
-
+.menu-bg{
+  display: none;
+}
 
 /*----SWITCH----*/
 .switch {
@@ -90,7 +92,7 @@ input:checked + .slider:before {
   animation-duration: 3s;
 }
 #bigtitle span{
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.4px;
   -webkit-text-stroke-color: white;
   color: #2E8BA6;
 }

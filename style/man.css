@@ -53,9 +53,9 @@ ul{
 
 .buttonContat{
   width: 13vw;
-  height: 6vh;
+  height: 8vh;
   background-color: var(--color-bg-white);
-  border-radius: 10px;
+  border-radius: 20px;
   border-color: var(--color-bg-white);
   border-style: none;
   text-decoration-color: var(--color-bg-principal);
