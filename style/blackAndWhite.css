@@ -5,5 +5,8 @@
   color: #1e252d !important;
 }
 .grey-mode{
-  background-color: #000;
+  background-color: #101010f2;
+}
+.dark-mode-title-white{
+  color: #d6d6d6 !important; /*CORRIGIR*/
 }

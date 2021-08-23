@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="style/mobile.css">
 	<link rel="stylesheet" type="text/css" href="style/animate.css">
 	<link rel="stylesheet" type="text/css" href="style/blackAndWhite.css">
+	<link rel="stylesheet" type="text/css" href="style/modal.css">
+
 
 
 
@@ -23,13 +25,47 @@
 
 <body id="body">
 	<div class="page-lading">
+
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div id="content-modal">
+					<div class="socialModal">
+
+						<div class="modalCard">
+							<p> Instagram</p>
+							<a class="imgModalCard"><img class="imgModal" src="./assets/instagram.png"></a>
+							<button class=" modalButton">Contato</button>
+						</div>
+						<div class="modalCard">
+							<p> Linkedin</p>
+							<a class="imgModalCard"><img class="imgModal" src="./assets/linkedin.png" alt=""></a>
+							<button class="modalButton">Contato</button>
+						</div>
+						<div class="modalCard">
+							<p> Git Hub</p>
+							<a class="imgModalCard"><img class="imgModal" src="./assets/github.png" alt=""></a>
+							<button class="modalButton">Contato</button>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+
 		<header>
 			<section class="header-person">
 				<div class="logo">
+					<img src="./assets/sun.svg" alt="">
 					<label class="switch">
 						<input type="checkbox">
 						<span class="slider round" onclick="onClickSliderRound( )"></span>
-					</label>
+
+					</label><img src="./assets/moon.svg" alt="">
 
 				</div>
 				<div class=" header-list">
@@ -45,7 +81,7 @@
 
 						<li><a href="#skills">Portifólio</li></a>
 						<li><a href="#serviços">Serviços</li></a>
-						<li><button class=" buttonContat">Contato</button></li>
+						<li><button id="myBtn" class=" buttonContat">Contato</button></li>
 					</ul>
 				</div>
 
@@ -74,17 +110,18 @@
 
 		<div class="text-descirption">
 
-			<p>A Mentoria Estrategista Digital Profissional foi criado para treinar qualquer pessoa a entender
-				sobre o mercado digital, venda de serviços e/ou infoprodutos, aplicar estratégias comprovadas pelos
-				maiores players do mercado e transformar você em um estrategista profissional.
-
-				Mesmo que você esteja começando agora neste mercado ou já tenha experiência, a Mentoria
-				se adequa às suas necessidades pois ele abrange do iniciante ao avançado.
+			<p>Olá Pessoa &#9995;, me chamo Donizeti, sou um contato que tenho certeza que você vai querer ter na sua
+				agenda&#129315;,
+				realizo diversos trabalhos freelancer na area de TI, desde a desenvolvimento WEB a Desginer, até me aventuro
+				as vezes no UX & UI&#129312;. Tenho formação incompleta em Analise e Desenvolvimento de Sistemas, e várias horas
+				de YouTube na bagagem.
+				Tenho minha pagina no instagram abordando Front-End passa lá ...
 			</p>
 
 		</div>
 		<div class="perfilimage">
 			<img src="assets/perfil.png" alt="">
+
 		</div>
 
 
@@ -251,10 +288,10 @@
 			<div class="risc"></div>
 			<br>
 			<ul>
-				<li>Posts e Banners pára Redes Sociais</li>
+				<li>Posts e Banners para Redes Sociais</li>
 				<li>Artes para panfletos</li>
 				<li>Feed planejado</li>
-				<li>5 Destaques para stories</li>
+				<li>Destaques para stories</li>
 				<li>Story para Eventos</li>
 			</ul>
 		</div>
@@ -280,9 +317,11 @@
 		</div>
 		<div class="text-descirption">
 
-			<p class="exciting-text">A Huna surgiu em julho de 2018 com a missão de transformar pequenos negócios no mundo
-				digital. Entendemos que
-				as redes sociais e toda parte de identidade visual pode parecer um bicho de sete cabeças.
+			<p class="exciting-text">A ideia de me posicionar digitalmente surgiu em meados de 2018 com a missão de realizar
+				diversos projetos e assim
+				mostrar o meu geito de criar. Toda esse site une-page foi criado visando mostrar minha area de domino, desde a
+				criação do Layout no Figma,
+				ate o desenvolvimento WEB.
 			</p>
 
 		</div>
@@ -291,13 +330,11 @@
 	<footer class="rodape">
 		<div class="justify-footer">
 			<div class="justify-footer-social">
-				<div>
-					<img src="assets/rect857.png" alt="">
-				</div>
+
 				<div class="social">
 					<a href="https://www.instagram.com/dev_donizet/"><img src="./assets/instagram.svg" alt=""></a>
-					<a href="https://www.instagram.com/dev_donizet/"><img src="./assets/github.svg" alt=""></a>
-					<a href="https://www.instagram.com/dev_donizet/"><img src="./assets/linkedin.svg" alt=""></a>
+					<a href="https://github.com/donizeti26"><img src="./assets/github.svg" alt=""></a>
+					<a href="https://www.linkedin.com/in/donizeti-neves-a666b31b0"><img src="./assets/linkedin.svg" alt=""></a>
 
 				</div>
 			</div>
@@ -323,6 +360,7 @@
 	<script src="script/menuBurguer.js"></script>
 	<script src="script/animatescroll.js"></script>
 	<script src="script/darkMode.js"></script>
+	<script src="script/OpenModal.js"></script>
 
 </body>
 

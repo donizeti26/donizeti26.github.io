@@ -9,4 +9,16 @@ function onClickSliderRound() {
 
   const body = document.getElementById('body')
   body.classList.toggle('grey-mode')
+
+  const texto = document.querySelectorAll('p')
+
+  for (var i = 0; i <= texto.length; i++) {
+    texto[i].classList.add('dark-mode-title-white')//fazer um for!
+  }
+  const divs = document.querySelectorAll('div')
+
+  divs.map(divs.classList.add('dark-mode-title-white'))
+
+
+
 };
