@@ -269,6 +269,7 @@ width: 50%;
 
 .item-job-description ul{
   flex-direction: column;
+  align-items: center;
 }
 .item-job-description ul li{
   list-style-type: disc;
