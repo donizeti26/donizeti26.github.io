@@ -87,3 +87,21 @@
     .imgModal{
       width: 100%;
     }
+    @media (max-width: 934px){
+      .modal-content {
+        padding: 18px;
+        width: 63%;
+        border-radius: 37px;
+        height: 98%;}
+        .socialModal{
+          flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+        .modalCard{
+          border-radius: 13px;
+          padding: 2%;
+          width: 76%;
+          margin-bottom: 8%;
+        }
+    }
