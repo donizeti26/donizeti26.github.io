@@ -111,6 +111,7 @@ input:checked + .slider:before {
   position: relative;
   animation-name: example;
   animation-duration: 1s;
+  transition-timing-function: ease;
 
 }
 @keyframes example {
@@ -322,6 +323,6 @@ width: 50%;
 }
 
 
-.exciting-text::after {
-  content: " <- EXCITING!";
+.justify-footer-site div p {
+  color: var( --color-bg-white);
 }

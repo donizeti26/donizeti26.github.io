@@ -66,12 +66,21 @@
     width: 100%;
 }
 .modalButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
     width: 100%;
     background-color: var(--color-bg-principal);
     border-radius: 7px;
     border: none;
-    color: var(--color-bg-white);}
+    cursor: pointer;
+    color: var(--color-bg-white);
+  }
+    .modalButton:hover{
+      background-color: #2DB5DD;
+      transition:.5s ease;
+    }
     .imgModalCard{
       width: 70%;
     }

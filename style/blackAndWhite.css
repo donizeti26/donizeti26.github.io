@@ -1,14 +1,5 @@
-@media screen and (prefers-color-scheme: dark) {
-		/* Dark mode styles */h1, h4, a, 
-.item-job-descriptio ul li{
-  color: white;
-}
-.page-lading{
- background-color:  #1e252d;
-}
-}
 
-.dark-mode , .rodape{
+.dark-mode  {
   background-color: #1e252d;
 }
 .dark-mode-title{

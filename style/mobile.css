@@ -111,9 +111,7 @@
   font-size: 2.2rem;
 
 }
-.imageminitalimg{
 
-}
 .buttonContat{
   width: 24vw;
 }
@@ -160,4 +158,9 @@ width: 100%;
 }
 .social{
   width: 25%;
+
+  
+}
+.justify-footer-site, .about-us{
+  flex-direction: column;
 }}
