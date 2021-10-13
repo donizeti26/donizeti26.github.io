@@ -79,10 +79,11 @@
 .pagelandinginitial{
   flex-direction: column-reverse;
   justify-content: center;
+  height: 100%;
 }
 
 .imageinitial{
-  width: 100%;
+  width: 90%;
 }
 #bigtitle span {
   -webkit-text-stroke-width: 0.4px;}

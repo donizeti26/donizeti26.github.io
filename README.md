@@ -2,7 +2,7 @@
 
 HI! My name is Donizeti! Welcome to my portfolio.
 こんにちは、私の名前はドニゼティです！ 私のポートフォリオへようこそ。
-
+<img src="./assets/moon.svg" alt="">
 Um site one-page (bem simples) com o objetivo de mostrar que nem sempre algo não tão complexo não seja eficiente. Desenvolvi a tema do site baseado no tema de cores que uso no [meu instagram](https://www.instagram.com/dev_donizet/)  (Faça um visita lá )
 
 ## 👨🏻‍💻 Stacks usadas

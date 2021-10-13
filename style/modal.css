@@ -90,9 +90,9 @@
     @media (max-width: 934px){
       .modal-content {
         padding: 18px;
-        width: 63%;
+        width: 50%;
         border-radius: 37px;
-        height: 98%;}
+        height: 100%;}
         .socialModal{
           flex-direction: column;
     justify-content: center;
