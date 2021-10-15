@@ -158,7 +158,7 @@ input:checked + .slider:before {
   display: flex;
 }
 .skills{
-  padding: 0% 9% 0% 9%;
+  padding: 9% 9% 9% 9%;
   display: flex;
   flex-direction: column;
 }

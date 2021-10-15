@@ -30,7 +30,7 @@ header, ul, li, a{
   font-weight: 500;
   line-height: 36px;
 text-decoration: none;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 .header-list ul li a{
   cursor: pointer;
