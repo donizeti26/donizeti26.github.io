@@ -112,7 +112,9 @@
   font-size: 2.2rem;
 
 }
-
+header, ul, li, a{ 
+font-size: 2.5vh;
+}
 .buttonContat{
   width: 24vw;
 }
